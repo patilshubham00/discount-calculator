@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <style>
+    
+     .calculator{
+        background: white;
+        width: 550px;
+        height: 400px;
+        padding: 25px;
+        margin: 50px auto 0;
+        box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+     }
+      h2{
+      font-size: 25px;
+      padding: 20px;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      color: aqua;
+     }
+     .number{
+      border:  2px solid cadetblue;
+            padding: 5px 5px ;
+            border-radius: 8px;
+            width: 100%;
+            text-transform: capitalize;
+            color: cadetblue;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            color: rgb(4, 25, 26);
+            font-family: "Madimi One", sans-serif;
+            
+            
+     }
+     .title{
+      padding-bottom: 15px;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif;
+      color: rgb(85, 216, 172);
+      
+     }
+
+     button[type="submit"]{
+      width: 100%;
+      border-radius: 8px;
+      padding: 5px 5px;
+      background-color: rgb(30, 210, 30);
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "Roboto", sans-serif;
+      color: azure;
+     }  
+     label{
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+     
+      color: rgb(85, 216, 172);
+     }    
+     
+    
+      
+    </style>
+</head>
+<body>
+    
+        <div class="calculator">
+        <h2>DISCOUNT CALCULATOR</h2>
+        <div class="title">
+            Enter the Bill amount and discount in percentage
+        </div>
+        <div>
+           <label for="">Bill Amount</label><br>
+           <input type="number" class="number"><br>
+           <label for="">Discount Percentage</label> <br>
+           <input type="number" class="number" ><br>
+           <button type="submit">Calculate</button><br>
+           <label for="">Total Discount Amount</label>
+        </div>
+
+        </div>
+       
+    
+</body>
+</html>
